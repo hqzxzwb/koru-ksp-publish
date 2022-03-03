@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../koruksp/0.12.0/koruksp-0.12.0.module",
+    "group": "com.github.hqzxzwb",
+    "module": "koruksp",
+    "version": "0.12.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "koruksp.klib",
+          "url": "koruksp-watchosarm32-0.12.0.klib",
+          "size": 12761,
+          "sha512": "37afe89a1dbb77aa54d90cf89ebba0b750f008d0eda6d84812697f2caebe65dbd44229491cf7b28bd48ab5323ccc3b587ce437b66283f84d0be9b57f46c93b89",
+          "sha256": "f335e00c7426319d888f8ba652426a919011f71f6e4cde1914d2b561a5244526",
+          "sha1": "b0de986475cebe351614675bf41cf61cd46e6904",
+          "md5": "780b4a1c344b915c7e75788fab7ed841"
+        }
+      ]
+    },
+    {
+      "name": "watchosArm32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "koruksp-watchosarm32-0.12.0-metadata.jar",
+          "url": "koruksp-watchosarm32-0.12.0-metadata.jar",
+          "size": 4066,
+          "sha512": "7930bf2befa75b08eb08dec1388a9046451a8cd9dcb025039b43c08c4f9b8af4ea6531f25c11433d146af5ffb1c9f5a0f3183a5276cad62f8b26d4dd9e07f23c",
+          "sha256": "206aa62178c76d7b4c7b573762a307cbf7724dbe8608ad36513d802c3c919daa",
+          "sha1": "aca00de037ec777b5a7a45cd35c9ab8573e11771",
+          "md5": "1a00bb6f393ff068b20c37c61f23310c"
+        }
+      ]
+    }
+  ]
+}
