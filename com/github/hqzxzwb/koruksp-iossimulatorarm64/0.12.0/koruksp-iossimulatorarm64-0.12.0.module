@@ -82,10 +82,10 @@
           "name": "koruksp-iossimulatorarm64-0.12.0-metadata.jar",
           "url": "koruksp-iossimulatorarm64-0.12.0-metadata.jar",
           "size": 4066,
-          "sha512": "aec5b1afab908c61f62c71fabc0eb84ba4ab5ce5ea1d9b9dba28973275faf758712783cf5483e8c5de00e5941a79905ff1c6ce501aa8ceed18960aa63fb5bc0a",
-          "sha256": "91a3c457189a77b4c732dde00fe02625a183d30ed83d344caa4b9cc24d159eaa",
-          "sha1": "6ccf2a114f2d1311d6dc07a8b7af490ef657b324",
-          "md5": "1b811d90287b2297c1b7b76f64619ca5"
+          "sha512": "fe567dd021d217466826c78ed09438d0f129f3553d6388aa604a24f5a704fecd999409bfa3f41de89e476e8b231d8f45ff522d8e896a67f2e70653db6b1b1027",
+          "sha256": "e66a347e6ae094a244bec514d24905d1c948a41e8190b8c93072fd60ee58b963",
+          "sha1": "0c902210876029227bfce7987661d8db5fd6ac66",
+          "md5": "674f25d76b0df4c5c4a69e32211ed1cc"
         }
       ]
     }

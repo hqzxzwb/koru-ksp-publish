@@ -1,0 +1,119 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../koruksp-processor/0.12.1/koruksp-processor-0.12.1.module",
+    "group": "com.github.hqzxzwb",
+    "module": "koruksp-processor",
+    "version": "0.12.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "koruksp-processor-jvm-0.12.1.jar",
+          "url": "koruksp-processor-jvm-0.12.1.jar",
+          "size": 28227,
+          "sha512": "06182728af3a00b52d0ad8f8c229b9c824295bf785193499508f9205eb7247bf3b865a562b34bd9669da1edf3d25b431f87b6a84881d36a2a043923212539d95",
+          "sha256": "de0cf4520a248a681c98e0cb94e32d54fdafc64100099a5c920f75997927d7b5",
+          "sha1": "6a8171e594812e14e17664ad11a59ad8a94eab4a",
+          "md5": "54f70a74e8981b6bd3a2d7552c9562f2"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.github.hqzxzwb",
+          "module": "koruksp",
+          "version": {
+            "requires": "0.12.1"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet-ksp",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet-metadata",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "1.6.10-1.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "koruksp-processor-jvm-0.12.1.jar",
+          "url": "koruksp-processor-jvm-0.12.1.jar",
+          "size": 28227,
+          "sha512": "06182728af3a00b52d0ad8f8c229b9c824295bf785193499508f9205eb7247bf3b865a562b34bd9669da1edf3d25b431f87b6a84881d36a2a043923212539d95",
+          "sha256": "de0cf4520a248a681c98e0cb94e32d54fdafc64100099a5c920f75997927d7b5",
+          "sha1": "6a8171e594812e14e17664ad11a59ad8a94eab4a",
+          "md5": "54f70a74e8981b6bd3a2d7552c9562f2"
+        }
+      ]
+    }
+  ]
+}

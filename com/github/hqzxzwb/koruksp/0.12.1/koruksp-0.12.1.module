@@ -1,0 +1,527 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.hqzxzwb",
+    "module": "koruksp",
+    "version": "0.12.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "koruksp-metadata-0.12.1-all.jar",
+          "url": "koruksp-0.12.1-all.jar",
+          "size": 4521,
+          "sha512": "a3fd327399fdf3826d313bd83ddb97bbe918b672465ea8d7920449e2e786238cd02714a522747f868f21342d839822a324f13d98238a6a9579b65eff216a8a64",
+          "sha256": "c722b2efe82737dc706aa9536559e99f070a6f875acbd48abd3b145c86bf6a0c",
+          "sha1": "43e389a7a831fa8baf48fc903440dcb4ebd41cf3",
+          "md5": "2f691d20ffb80624268daebfe2878fdb"
+        }
+      ]
+    },
+    {
+      "name": "commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "koruksp-0.12.1.jar",
+          "url": "koruksp-0.12.1.jar",
+          "size": 3932,
+          "sha512": "7cbea3f0bd0052b921495a203014563a484d0fd239f8523c62712c88cf72e6a14bc0b264c6746b0582fd6f74b66fd563092f4dac21e5a25238b6c05f9c34658a",
+          "sha256": "b5330ab28d57aa4be7367fd5f466d6c55ea34df1742c174628b33318c9a9383f",
+          "sha1": "e9eb6fd1b18ed104b71245a88678e99b341e0a7e",
+          "md5": "3a7d251f573c878c30af093d82261fa4"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../koruksp-iosarm64/0.12.1/koruksp-iosarm64-0.12.1.module",
+        "group": "com.github.hqzxzwb",
+        "module": "koruksp-iosarm64",
+        "version": "0.12.1"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../koruksp-iosarm64/0.12.1/koruksp-iosarm64-0.12.1.module",
+        "group": "com.github.hqzxzwb",
+        "module": "koruksp-iosarm64",
+        "version": "0.12.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../koruksp-iossimulatorarm64/0.12.1/koruksp-iossimulatorarm64-0.12.1.module",
+        "group": "com.github.hqzxzwb",
+        "module": "koruksp-iossimulatorarm64",
+        "version": "0.12.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../koruksp-iossimulatorarm64/0.12.1/koruksp-iossimulatorarm64-0.12.1.module",
+        "group": "com.github.hqzxzwb",
+        "module": "koruksp-iossimulatorarm64",
+        "version": "0.12.1"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../koruksp-iosx64/0.12.1/koruksp-iosx64-0.12.1.module",
+        "group": "com.github.hqzxzwb",
+        "module": "koruksp-iosx64",
+        "version": "0.12.1"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../koruksp-iosx64/0.12.1/koruksp-iosx64-0.12.1.module",
+        "group": "com.github.hqzxzwb",
+        "module": "koruksp-iosx64",
+        "version": "0.12.1"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../koruksp-jvm/0.12.1/koruksp-jvm-0.12.1.module",
+        "group": "com.github.hqzxzwb",
+        "module": "koruksp-jvm",
+        "version": "0.12.1"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../koruksp-jvm/0.12.1/koruksp-jvm-0.12.1.module",
+        "group": "com.github.hqzxzwb",
+        "module": "koruksp-jvm",
+        "version": "0.12.1"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../koruksp-macosarm64/0.12.1/koruksp-macosarm64-0.12.1.module",
+        "group": "com.github.hqzxzwb",
+        "module": "koruksp-macosarm64",
+        "version": "0.12.1"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../koruksp-macosarm64/0.12.1/koruksp-macosarm64-0.12.1.module",
+        "group": "com.github.hqzxzwb",
+        "module": "koruksp-macosarm64",
+        "version": "0.12.1"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../koruksp-macosx64/0.12.1/koruksp-macosx64-0.12.1.module",
+        "group": "com.github.hqzxzwb",
+        "module": "koruksp-macosx64",
+        "version": "0.12.1"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../koruksp-macosx64/0.12.1/koruksp-macosx64-0.12.1.module",
+        "group": "com.github.hqzxzwb",
+        "module": "koruksp-macosx64",
+        "version": "0.12.1"
+      }
+    },
+    {
+      "name": "tvosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../koruksp-tvosarm64/0.12.1/koruksp-tvosarm64-0.12.1.module",
+        "group": "com.github.hqzxzwb",
+        "module": "koruksp-tvosarm64",
+        "version": "0.12.1"
+      }
+    },
+    {
+      "name": "tvosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../koruksp-tvosarm64/0.12.1/koruksp-tvosarm64-0.12.1.module",
+        "group": "com.github.hqzxzwb",
+        "module": "koruksp-tvosarm64",
+        "version": "0.12.1"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../koruksp-tvossimulatorarm64/0.12.1/koruksp-tvossimulatorarm64-0.12.1.module",
+        "group": "com.github.hqzxzwb",
+        "module": "koruksp-tvossimulatorarm64",
+        "version": "0.12.1"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../koruksp-tvossimulatorarm64/0.12.1/koruksp-tvossimulatorarm64-0.12.1.module",
+        "group": "com.github.hqzxzwb",
+        "module": "koruksp-tvossimulatorarm64",
+        "version": "0.12.1"
+      }
+    },
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../koruksp-tvosx64/0.12.1/koruksp-tvosx64-0.12.1.module",
+        "group": "com.github.hqzxzwb",
+        "module": "koruksp-tvosx64",
+        "version": "0.12.1"
+      }
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../koruksp-tvosx64/0.12.1/koruksp-tvosx64-0.12.1.module",
+        "group": "com.github.hqzxzwb",
+        "module": "koruksp-tvosx64",
+        "version": "0.12.1"
+      }
+    },
+    {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../koruksp-watchosarm32/0.12.1/koruksp-watchosarm32-0.12.1.module",
+        "group": "com.github.hqzxzwb",
+        "module": "koruksp-watchosarm32",
+        "version": "0.12.1"
+      }
+    },
+    {
+      "name": "watchosArm32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../koruksp-watchosarm32/0.12.1/koruksp-watchosarm32-0.12.1.module",
+        "group": "com.github.hqzxzwb",
+        "module": "koruksp-watchosarm32",
+        "version": "0.12.1"
+      }
+    },
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../koruksp-watchosarm64/0.12.1/koruksp-watchosarm64-0.12.1.module",
+        "group": "com.github.hqzxzwb",
+        "module": "koruksp-watchosarm64",
+        "version": "0.12.1"
+      }
+    },
+    {
+      "name": "watchosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../koruksp-watchosarm64/0.12.1/koruksp-watchosarm64-0.12.1.module",
+        "group": "com.github.hqzxzwb",
+        "module": "koruksp-watchosarm64",
+        "version": "0.12.1"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../koruksp-watchossimulatorarm64/0.12.1/koruksp-watchossimulatorarm64-0.12.1.module",
+        "group": "com.github.hqzxzwb",
+        "module": "koruksp-watchossimulatorarm64",
+        "version": "0.12.1"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../koruksp-watchossimulatorarm64/0.12.1/koruksp-watchossimulatorarm64-0.12.1.module",
+        "group": "com.github.hqzxzwb",
+        "module": "koruksp-watchossimulatorarm64",
+        "version": "0.12.1"
+      }
+    },
+    {
+      "name": "watchosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../koruksp-watchosx64/0.12.1/koruksp-watchosx64-0.12.1.module",
+        "group": "com.github.hqzxzwb",
+        "module": "koruksp-watchosx64",
+        "version": "0.12.1"
+      }
+    },
+    {
+      "name": "watchosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../koruksp-watchosx64/0.12.1/koruksp-watchosx64-0.12.1.module",
+        "group": "com.github.hqzxzwb",
+        "module": "koruksp-watchosx64",
+        "version": "0.12.1"
+      }
+    },
+    {
+      "name": "watchosX86ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../koruksp-watchosx86/0.12.1/koruksp-watchosx86-0.12.1.module",
+        "group": "com.github.hqzxzwb",
+        "module": "koruksp-watchosx86",
+        "version": "0.12.1"
+      }
+    },
+    {
+      "name": "watchosX86MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../koruksp-watchosx86/0.12.1/koruksp-watchosx86-0.12.1.module",
+        "group": "com.github.hqzxzwb",
+        "module": "koruksp-watchosx86",
+        "version": "0.12.1"
+      }
+    }
+  ]
+}

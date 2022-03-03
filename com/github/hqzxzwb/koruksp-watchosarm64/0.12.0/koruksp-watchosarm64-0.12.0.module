@@ -82,10 +82,10 @@
           "name": "koruksp-watchosarm64-0.12.0-metadata.jar",
           "url": "koruksp-watchosarm64-0.12.0-metadata.jar",
           "size": 4066,
-          "sha512": "7930bf2befa75b08eb08dec1388a9046451a8cd9dcb025039b43c08c4f9b8af4ea6531f25c11433d146af5ffb1c9f5a0f3183a5276cad62f8b26d4dd9e07f23c",
-          "sha256": "206aa62178c76d7b4c7b573762a307cbf7724dbe8608ad36513d802c3c919daa",
-          "sha1": "aca00de037ec777b5a7a45cd35c9ab8573e11771",
-          "md5": "1a00bb6f393ff068b20c37c61f23310c"
+          "sha512": "fe567dd021d217466826c78ed09438d0f129f3553d6388aa604a24f5a704fecd999409bfa3f41de89e476e8b231d8f45ff522d8e896a67f2e70653db6b1b1027",
+          "sha256": "e66a347e6ae094a244bec514d24905d1c948a41e8190b8c93072fd60ee58b963",
+          "sha1": "0c902210876029227bfce7987661d8db5fd6ac66",
+          "md5": "674f25d76b0df4c5c4a69e32211ed1cc"
         }
       ]
     }

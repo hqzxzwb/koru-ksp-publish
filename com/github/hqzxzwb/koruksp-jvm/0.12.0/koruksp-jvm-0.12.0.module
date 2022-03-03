@@ -26,14 +26,14 @@
       "dependencies": [
         {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-common",
+          "module": "kotlin-stdlib-jdk8",
           "version": {
             "requires": "1.6.10"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-jdk8",
+          "module": "kotlin-stdlib-common",
           "version": {
             "requires": "1.6.10"
           }
@@ -44,10 +44,10 @@
           "name": "koruksp-jvm-0.12.0.jar",
           "url": "koruksp-jvm-0.12.0.jar",
           "size": 15330,
-          "sha512": "17954e632dbdd8535101608a510eaa9fd84d699f4122e0d7101d42509c7b0a031485ef3d0680f2d80b0a6067437300abf8029fdd38545612de8b7e9a14201f40",
-          "sha256": "331d2a6c2fa4b886b04cd592d52dee0661336cd7caf2bdc9bf09206af79bb3b2",
-          "sha1": "b4e9721e0a0263adc542574b210c7c04b205183a",
-          "md5": "a737208213021bc707306c622c2a9880"
+          "sha512": "87266ab253e2c6adb5fd5b4f5095092bb75c2a16690c33ffa7dbbaa23481bbaba47a31ae2741983f9e1d9c118107a1fb9b457ba099cd04d08cb5f94d938b8374",
+          "sha256": "d682e3072ade8fb36236f8b2ca9b9f24bcb5a450207a3a2c3980c47504bdeb92",
+          "sha1": "8b56a9d9934130af3a9b060bd6dffac13c8c0aa7",
+          "md5": "fda20aee7efe364948d8aa96a7c38a40"
         }
       ]
     },
@@ -62,14 +62,14 @@
       "dependencies": [
         {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-common",
+          "module": "kotlin-stdlib-jdk8",
           "version": {
             "requires": "1.6.10"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-jdk8",
+          "module": "kotlin-stdlib-common",
           "version": {
             "requires": "1.6.10"
           }
@@ -87,10 +87,10 @@
           "name": "koruksp-jvm-0.12.0.jar",
           "url": "koruksp-jvm-0.12.0.jar",
           "size": 15330,
-          "sha512": "17954e632dbdd8535101608a510eaa9fd84d699f4122e0d7101d42509c7b0a031485ef3d0680f2d80b0a6067437300abf8029fdd38545612de8b7e9a14201f40",
-          "sha256": "331d2a6c2fa4b886b04cd592d52dee0661336cd7caf2bdc9bf09206af79bb3b2",
-          "sha1": "b4e9721e0a0263adc542574b210c7c04b205183a",
-          "md5": "a737208213021bc707306c622c2a9880"
+          "sha512": "87266ab253e2c6adb5fd5b4f5095092bb75c2a16690c33ffa7dbbaa23481bbaba47a31ae2741983f9e1d9c118107a1fb9b457ba099cd04d08cb5f94d938b8374",
+          "sha256": "d682e3072ade8fb36236f8b2ca9b9f24bcb5a450207a3a2c3980c47504bdeb92",
+          "sha1": "8b56a9d9934130af3a9b060bd6dffac13c8c0aa7",
+          "md5": "fda20aee7efe364948d8aa96a7c38a40"
         }
       ]
     }

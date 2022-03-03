@@ -36,11 +36,11 @@
         {
           "name": "koruksp-processor-jvm-0.12.0.jar",
           "url": "koruksp-processor-jvm-0.12.0.jar",
-          "size": 28094,
-          "sha512": "f8548dedaaf6fc1ae6e6769b52513512d5759a99add66a3dd062f22657557b5623312eb492071f4623bc18d2b3cb8addc618fdb8af7559047a440d3b60a98504",
-          "sha256": "ee764ac247d8a3a1c72f333318ce10f7d231bb94bf47ccfbabb5df6310d3212b",
-          "sha1": "abd5ac857a1c169283f7c138a810c4872d48b39e",
-          "md5": "5ba81cc28e8261d415c48e372c98dba3"
+          "size": 28227,
+          "sha512": "d7f18a9e9bd3f517d77cccfed69154dfd85eefd95ada1a786f2b83462592554c705a7abe2addad60b218a831c4161f922c3cfa3262ba62e03239c04e54f7f6b7",
+          "sha256": "13a025cb98a0a3ff567d17a1d90bab91169b34da95f79114a03394752292796b",
+          "sha1": "bed83265c8444eef1bd9c71a80c9afd1bd78dfa6",
+          "md5": "76395bfa83f5cd4c44f75f84c78d0c79"
         }
       ]
     },
@@ -107,11 +107,11 @@
         {
           "name": "koruksp-processor-jvm-0.12.0.jar",
           "url": "koruksp-processor-jvm-0.12.0.jar",
-          "size": 28094,
-          "sha512": "f8548dedaaf6fc1ae6e6769b52513512d5759a99add66a3dd062f22657557b5623312eb492071f4623bc18d2b3cb8addc618fdb8af7559047a440d3b60a98504",
-          "sha256": "ee764ac247d8a3a1c72f333318ce10f7d231bb94bf47ccfbabb5df6310d3212b",
-          "sha1": "abd5ac857a1c169283f7c138a810c4872d48b39e",
-          "md5": "5ba81cc28e8261d415c48e372c98dba3"
+          "size": 28227,
+          "sha512": "d7f18a9e9bd3f517d77cccfed69154dfd85eefd95ada1a786f2b83462592554c705a7abe2addad60b218a831c4161f922c3cfa3262ba62e03239c04e54f7f6b7",
+          "sha256": "13a025cb98a0a3ff567d17a1d90bab91169b34da95f79114a03394752292796b",
+          "sha1": "bed83265c8444eef1bd9c71a80c9afd1bd78dfa6",
+          "md5": "76395bfa83f5cd4c44f75f84c78d0c79"
         }
       ]
     }

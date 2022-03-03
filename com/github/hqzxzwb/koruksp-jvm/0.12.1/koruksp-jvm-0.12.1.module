@@ -1,0 +1,98 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../koruksp/0.12.1/koruksp-0.12.1.module",
+    "group": "com.github.hqzxzwb",
+    "module": "koruksp",
+    "version": "0.12.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "koruksp-jvm-0.12.1.jar",
+          "url": "koruksp-jvm-0.12.1.jar",
+          "size": 15330,
+          "sha512": "94f63ee9a0cea3d0921f7ae070e7cdc544b6722ef84d0f99dbeb8211a7773c451bd722667999d50c1edba8a00afa44150e5078bed6f492d8e6fecb229c77ddad",
+          "sha256": "3b577ecf1b5ce8818b126a5e980268c91a6351f7709b5729679581a2e8482479",
+          "sha1": "09979f4edf648fce4d8daace1b94f8ba9be11df6",
+          "md5": "c93165c8b6d0715d660e940ebeab6205"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "koruksp-jvm-0.12.1.jar",
+          "url": "koruksp-jvm-0.12.1.jar",
+          "size": 15330,
+          "sha512": "94f63ee9a0cea3d0921f7ae070e7cdc544b6722ef84d0f99dbeb8211a7773c451bd722667999d50c1edba8a00afa44150e5078bed6f492d8e6fecb229c77ddad",
+          "sha256": "3b577ecf1b5ce8818b126a5e980268c91a6351f7709b5729679581a2e8482479",
+          "sha1": "09979f4edf648fce4d8daace1b94f8ba9be11df6",
+          "md5": "c93165c8b6d0715d660e940ebeab6205"
+        }
+      ]
+    }
+  ]
+}

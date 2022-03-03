@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../koruksp/0.12.1/koruksp-0.12.1.module",
+    "group": "com.github.hqzxzwb",
+    "module": "koruksp",
+    "version": "0.12.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosX86ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "koruksp.klib",
+          "url": "koruksp-watchosx86-0.12.1.klib",
+          "size": 12743,
+          "sha512": "cb6de8cbb89d795685dbbbeb3d1625cdf72e726809c7e531d38ae98d60a7ecf8ae681e070bc4205b00211dd906d8d31d35eff2e62a6a54e5fb498e1f2b0cc671",
+          "sha256": "b34ef9d485aed1f908797276497337cb7d202d39726bc5ea7019d6db440d90c8",
+          "sha1": "84f27f44191724851e9bc7df0cdf035555c790ff",
+          "md5": "00c9c5e1d6afa6c0966d5d6c06f04342"
+        }
+      ]
+    },
+    {
+      "name": "watchosX86MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "koruksp-watchosx86-0.12.1-metadata.jar",
+          "url": "koruksp-watchosx86-0.12.1-metadata.jar",
+          "size": 4066,
+          "sha512": "4fafd5484285da0b0377c51aa920d842ba53e5e4d22430d5bfb38552b348ab53541e3505972578f23cd65983fca87914900bfe845b450448e1aef3031e995017",
+          "sha256": "96301004908c430ba48593a699fd70538a5f0efdbf3cc02ef09b9e5e2e463145",
+          "sha1": "efc02918be9971c21f72fcbbdbab750c4f1cf62e",
+          "md5": "29ab14db894703ebd2454c80af6ec56f"
+        }
+      ]
+    }
+  ]
+}

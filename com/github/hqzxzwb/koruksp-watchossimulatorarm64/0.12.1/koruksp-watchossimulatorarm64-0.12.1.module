@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../koruksp/0.12.1/koruksp-0.12.1.module",
+    "group": "com.github.hqzxzwb",
+    "module": "koruksp",
+    "version": "0.12.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "watchosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "koruksp.klib",
+          "url": "koruksp-watchossimulatorarm64-0.12.1.klib",
+          "size": 12847,
+          "sha512": "77d179531b2731a7388db5ea982bc4ff20faca79a35af9dc547b5a9fce77900fb864ee40bdde639a16f44e2711076443e88ffb21c0f832e2d562bcc65854158c",
+          "sha256": "78d5d7fd7872ef49ee8c370f82d411ffd0ada2fc86acf33f1bb9dab19fc976b9",
+          "sha1": "454081ada6da754d787c5117883e676f4be19a0c",
+          "md5": "c71253455bf8bb21952e1ed978f269fd"
+        }
+      ]
+    },
+    {
+      "name": "watchosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "koruksp-watchossimulatorarm64-0.12.1-metadata.jar",
+          "url": "koruksp-watchossimulatorarm64-0.12.1-metadata.jar",
+          "size": 4066,
+          "sha512": "4fafd5484285da0b0377c51aa920d842ba53e5e4d22430d5bfb38552b348ab53541e3505972578f23cd65983fca87914900bfe845b450448e1aef3031e995017",
+          "sha256": "96301004908c430ba48593a699fd70538a5f0efdbf3cc02ef09b9e5e2e463145",
+          "sha1": "efc02918be9971c21f72fcbbdbab750c4f1cf62e",
+          "md5": "29ab14db894703ebd2454c80af6ec56f"
+        }
+      ]
+    }
+  ]
+}

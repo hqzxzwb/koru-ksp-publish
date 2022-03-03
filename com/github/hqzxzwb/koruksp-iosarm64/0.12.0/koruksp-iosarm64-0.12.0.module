@@ -82,10 +82,10 @@
           "name": "koruksp-iosarm64-0.12.0-metadata.jar",
           "url": "koruksp-iosarm64-0.12.0-metadata.jar",
           "size": 4066,
-          "sha512": "aa7f76d88e567cd9cc2dfe9d63c2eba532a345f59dc70964766b8d62a263a93a28ce2e2be839adca88610580fcb9a6902918c9d02cbfb155657f099165badd47",
-          "sha256": "fdf67ac1e181c95cb4f16153781652ef2919284286055eca82747e11f5f90e30",
-          "sha1": "fbafcd4603a191899393dc542fb157d7f8c72899",
-          "md5": "63058329304344b05d854be5f24cadde"
+          "sha512": "c78f41b24f4aa7cede1971db0c6dc717cc9d3d2fc19d4424d8358879eb1a6feedc6380607f753aa34ac2b56a2c67bd32608d6084daed090774123ddf63619d7b",
+          "sha256": "7581ef3004fc1d1197acf2c8f65e40b8222cba7777752d02e3d821f4332778a4",
+          "sha1": "aafc57cbaa9861304ecd94fe45fa7859eee00e46",
+          "md5": "4107a110e7d7e4c1301b5320096534ba"
         }
       ]
     }

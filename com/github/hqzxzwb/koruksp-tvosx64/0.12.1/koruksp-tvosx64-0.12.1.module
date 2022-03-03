@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../koruksp/0.12.1/koruksp-0.12.1.module",
+    "group": "com.github.hqzxzwb",
+    "module": "koruksp",
+    "version": "0.12.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "koruksp.klib",
+          "url": "koruksp-tvosx64-0.12.1.klib",
+          "size": 12717,
+          "sha512": "710e0d6239019c3ccbb7a0b79f630b4ef7de5b694a927125a80d2ac162c84e7b4fc6a9c059f3b191abafd81a82053c42299c1d8a000554b1ca0320103f4f8f2e",
+          "sha256": "7b8e2b74512d7ac77b77a0eadb140a2b656e28f6931d9905421e3f6b2fa0fac0",
+          "sha1": "f2c63ae2a95440b81d09d5a1006fc35c4d98ba4f",
+          "md5": "d4394694756fa023144a9687a1e81e08"
+        }
+      ]
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "koruksp-tvosx64-0.12.1-metadata.jar",
+          "url": "koruksp-tvosx64-0.12.1-metadata.jar",
+          "size": 4066,
+          "sha512": "4fafd5484285da0b0377c51aa920d842ba53e5e4d22430d5bfb38552b348ab53541e3505972578f23cd65983fca87914900bfe845b450448e1aef3031e995017",
+          "sha256": "96301004908c430ba48593a699fd70538a5f0efdbf3cc02ef09b9e5e2e463145",
+          "sha1": "efc02918be9971c21f72fcbbdbab750c4f1cf62e",
+          "md5": "29ab14db894703ebd2454c80af6ec56f"
+        }
+      ]
+    }
+  ]
+}
